@@ -16,5 +16,4 @@ func main() {
 	fmt.Scan(&b)
 
 	fmt.Println("Result:", add(a, b))
-
 }
