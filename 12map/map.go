@@ -17,4 +17,13 @@ func main(){
 
 	delete(map1,"Anurag")
 	fmt.Println("Anurag Marks:",map1["Anurag"])
+
+	// map return two value 1 is value and 2nd value is boolean that it eists or not
+
+	value,exits:=map1["Shubam"]
+
+	fmt.Println("value :",value,"exits:",exits)
+
+
+
 }
