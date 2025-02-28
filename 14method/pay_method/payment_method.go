@@ -7,7 +7,7 @@ type payment struct {
 	method string
 }
 
-func (p payment) pay() {
+func (p *payment) pay() {
 	fmt.Println("payment Amount:", p.amount, "\nMethod:", p.method)
 }
 
