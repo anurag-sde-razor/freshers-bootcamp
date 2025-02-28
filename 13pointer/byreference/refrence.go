@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 func ByReference(a *int) {
@@ -8,6 +9,6 @@ func ByReference(a *int) {
 func main() {
 	num := 10
 	ByReference(&num)
-	fmt.Println("changed Number:",num)
+	fmt.Println("changed Number:", num)
 
 }
