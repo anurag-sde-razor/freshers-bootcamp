@@ -1,9 +1,12 @@
 package main
+
 import "fmt"
 
-func main(){
-	var arr[3] int
-	for index, _ :=range arr{
-		fmt.Println("index:",index)
-	}
+func demo() {
+	fmt.Println("welcome from demo")
+
+}
+
+func main() {
+   demo()
 }
